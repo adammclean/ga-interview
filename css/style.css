@@ -73,9 +73,8 @@ Contact
 	font-size: .9em;
 }
 
-#input {
-	text-align: center;
+#contact-info li {
+	padding: 2.5px;
 }
-
 
 
