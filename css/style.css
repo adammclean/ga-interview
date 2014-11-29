@@ -6,33 +6,50 @@ Jumbotron
 	text-align: center;
 	padding: 0px auto;
 	margin: 0;
-	font-weight: bold;
+	font-family: 'Open Sans';
+	
 }
 
 h1 {
 	font-size: 15em;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p {
-	font-size: 1.5em;
-	margin: 0 0 150px 0;
+	font-family: 'Open Sans';
+	font-size: 1.25em;
+	margin: 0 0 50px 0;
 	padding: 0;
 }
 
+/***********************
+Headshot
+***********************/
+#img {
+	float: top;
+	display: block;
+	max-width: 150px;
+	padding: 10px;
+	margin: auto;
+
+}
 
 
 /***********************
 About
-***********************/
+**********************/
 
 #about {
+	font-family: 'Open Sans';
 	float: left;
 	clear: all;
 	width: 40%;
-	margin: 0;
+	margin: auto;
 	padding: 0;
+	font-size: .9em;
 }
-
 
 
 /***********************
@@ -40,16 +57,25 @@ Contact
 ***********************/
 
 #contact {
+	font-family: 'Open Sans';
 	float: right;
 	clear: all;
 	width: 40%;
-	margin: 0;
+	margin: 0px 20px 0px 0px;
 	padding: 0;
+	font-size: .9em;
 }
 
 #contact-info {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	font-size: .9em;
 }
+
+#input {
+	text-align: center;
+}
+
+
 
